@@ -46,12 +46,16 @@ machine. Confirmed absent on win-builder.
 
 | Platform | R version | Errors | Warnings | Notes |
 |---|---|---|---|---|
-| Windows (win-builder, R 4.6.1 ucrt) | R 4.6.1 | 0 | 0 | 1 (New submission + surnames) |
-| Windows 11 (local) | R 4.5.3 ucrt | 0 | 0 | 1–3 (see above) |
-| Linux R-devel Ubuntu 24.04 (rhub) | R-devel | 0 | 0 | 1 (New submission) |
-| macOS ARM Sequoia 15 (rhub) | R-devel | 0 | 0 | 1 (New submission) |
+| Windows (win-builder) | R 4.6.1 ucrt | 0 | 0 | 1 (New submission; surnames flagged by the spell check) |
+| macOS (GitHub Actions, macos-latest) | release | 0 | 0 | 0 |
+| Windows (GitHub Actions, windows-latest) | release | 0 | 0 | 0 |
+| Ubuntu (GitHub Actions) | devel | 0 | 0 | 0 |
+| Ubuntu (GitHub Actions) | release | 0 | 0 | 0 |
+| Ubuntu (GitHub Actions) | oldrel-1 | 0 | 0 | 0 |
+| Windows 11 (local, `--as-cran`) | R 4.5.3 ucrt | 0 | 0 | 3 (local-only, see above) |
 
----
+The GitHub Actions jobs use the standard `r-lib/actions` check
+(`R-CMD-check.yaml`); the `--as-cran` check was run locally and on win-builder.
 
 ## Reverse dependencies
 
