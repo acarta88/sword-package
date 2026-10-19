@@ -4,7 +4,7 @@
 [![CRAN status](https://www.r-pkg.org/badges/version/SWORD)](https://CRAN.R-project.org/package=SWORD)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![License: GPL-3](https://img.shields.io/badge/License-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![R-CMD-check](https://github.com/acarta88/SWORD-rcpp/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/acarta88/SWORD-rcpp/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/acarta88/sword-package/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/acarta88/sword-package/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 **SWORD** (**S**upport vector machine **W**eighted **O**blique **R**andom
@@ -36,11 +36,11 @@ The main functions are:
 ## Installation
 
 You can install the development version of SWORD from
-[GitHub](https://github.com/acarta88/SWORD-rcpp) with:
+[GitHub](https://github.com/acarta88/sword-package) with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("acarta88/SWORD-rcpp")
+remotes::install_github("acarta88/sword-package")
 ```
 
 ## Usage
@@ -180,7 +180,7 @@ plot_oob_fit(forest, y_train) # OOB predicted vs. observed
 ## Getting help
 
 If you encounter a bug, please file an issue with a minimal reproducible
-example on [GitHub](https://github.com/acarta88/SWORD-rcpp/issues).
+example on [GitHub](https://github.com/acarta88/sword-package/issues).
 
 ## References
 
