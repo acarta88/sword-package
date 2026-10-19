@@ -16,7 +16,7 @@ Description: Implements SWORD (Support vector machine Weighted Oblique Random
     Provides tree fitting (TORS), forest fitting (SWORD), prediction, and
     variable importance (VI_SWORD). Parallel tree fitting is supported via the
     'future'/'furrr' framework.
-    The SWORD method is described in Carta and Frigau (in press)
+    The SWORD method is described in Carta and Frigau (accepted, in press)
     'Oblique Random Forests for Regression via Weighted Support Vector Machine',
     Advances in Data Analysis and Classification.
     The TORS algorithm is described in Carta and Frigau (2025)
