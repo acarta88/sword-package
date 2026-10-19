@@ -1,0 +1,9 @@
+^src/.*\.o$
+^src/.*\.dll$
+^src/.*\.so$
+^bench$
+^doc$
+^Meta$
+^\.github$
+^cran-comments\.md$
+^CONTRIBUTING\.md$
