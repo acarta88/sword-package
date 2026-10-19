@@ -11,7 +11,12 @@ On CRAN check machines only the standard "New submission" NOTE is expected.
 ```
 * checking CRAN incoming feasibility ... NOTE
   New submission
+
+  Possibly misspelled words in DESCRIPTION:
+    Cao, Carta, Frigau
 ```
+The flagged words are author surnames (Carta and Frigau are the package
+authors; Cao is a co-author of the cited Yang, Song and Cao (2005) paper).
 
 ### Local-only NOTEs (do NOT appear on CRAN servers)
 
@@ -25,7 +30,15 @@ Pandoc is not installed in the local check environment. Confirmed absent on R-hu
 * checking for future file timestamps ... NOTE
   unable to verify current time
 ```
-No NTP access in the local check environment. Confirmed absent on R-hub.
+No NTP access in the local check environment. Confirmed absent on R-hub and
+win-builder.
+
+```
+* checking compiled code ... NOTE
+  (objdump.exe could not be executed)
+```
+Windows Smart App Control blocks the unsigned Rtools binaries on the local
+machine. Confirmed absent on win-builder.
 
 ---
 
@@ -33,6 +46,7 @@ No NTP access in the local check environment. Confirmed absent on R-hub.
 
 | Platform | R version | Errors | Warnings | Notes |
 |---|---|---|---|---|
+| Windows (win-builder, R 4.6.1 ucrt) | R 4.6.1 | 0 | 0 | 1 (New submission + surnames) |
 | Windows 11 (local) | R 4.5.3 ucrt | 0 | 0 | 1–3 (see above) |
 | Linux R-devel Ubuntu 24.04 (rhub) | R-devel | 0 | 0 | 1 (New submission) |
 | macOS ARM Sequoia 15 (rhub) | R-devel | 0 | 0 | 1 (New submission) |
