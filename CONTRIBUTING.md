@@ -4,7 +4,7 @@ Thank you for your interest in contributing to the SWORD package.
 
 ## Reporting bugs
 
-Please open an issue at <https://github.com/acarta88/SWORD-rcpp/issues> with:
+Please open an issue at <https://github.com/acarta88/sword-package/issues> with:
 
 - A minimal reproducible example
 - Your R version and OS
