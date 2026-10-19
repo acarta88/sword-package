@@ -29,4 +29,4 @@ Open an issue describing the proposed feature and the use case that motivates it
 
 ## Contact
 
-Andrea Carta — <acarta88@yahoo.it>
+Andrea Carta (<https://github.com/acarta88>)

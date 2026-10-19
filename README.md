@@ -13,7 +13,7 @@ oblique splitting hyperplane as a sparse linear combination of predictors,
 rather than a single axis-aligned threshold.
 
 The base learner is **TORS** (**T**ree **O**blique for **R**egression with
-weighted **S**VM), introduced in Carta & Frigau (2025).
+weighted **S**VM), introduced in Carta & Frigau (2025). SWORD is described in Carta & Frigau (in press), *Oblique Random Forests for Regression via Weighted Support Vector Machine*, *Advances in Data Analysis and Classification*.
 
 ## Overview
 
@@ -182,6 +182,9 @@ If you encounter a bug, please file an issue with a minimal reproducible
 example on [GitHub](https://github.com/acarta88/sword-package/issues).
 
 ## References
+
+Carta, A. and Frigau, L. (in press). Oblique random forests for regression via weighted
+support vector machine. *Advances in Data Analysis and Classification*.
 
 Carta, A. and Frigau, L. (2025). Tree oblique for regression with weighted
 support vector machine. *Computational Statistics*, **40**, 5257–5291.

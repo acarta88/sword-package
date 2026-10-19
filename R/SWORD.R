@@ -1,4 +1,4 @@
-﻿# ==============================================================================
+# ==============================================================================
 # SWORD.R
 # SWORD: Support vector machine Weighted Oblique Random Decision forests
 #
@@ -758,6 +758,10 @@ TORS <- function(Covariates, y = NULL,
 #'
 #' @return An object of class \code{"sword_flat"}.
 #' @references
+#' Carta, A. and Frigau, L. (in press). Oblique random forests for regression via
+#' weighted support vector machine. \emph{Advances in Data Analysis and
+#' Classification}.
+#'
 #' Carta, A. and Frigau, L. (2025). Tree oblique for regression with weighted
 #' support vector machine. \emph{Computational Statistics}, \bold{40}, 5257--5291.
 #' \doi{10.1007/s00180-025-01647-w}
